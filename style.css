@@ -1,0 +1,23 @@
+body {
+    background-color: orchid;
+    color: white;
+}
+h1{
+    text-align: center;
+}
+H2{
+    height: 20;
+    color: black;
+}
+h3{
+    color:lightgray
+}
+h4{
+    color: burlywood;
+}
+h5{
+    color:seagreen ;
+}
+h6{
+    color: yellowgreen;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form</title>
+    </head>
+<body>
+    <form>
+        <h2> Registration Form</h2>
+
+        <label>Time
+            <input type="time">
+        </label><br><br>
+
+
+        <label>First Name
+        <input type="text" id="fname">
+        </label><br><br>
+
+        <label>Surname
+        <input type="text" id="sname">
+        </label><br><br>
+
+        <label>Phone Number
+        <input type="number" id="number">
+        </label><br><br>
+
+        <label>Email
+            <input type="email" id="email" name="email">
+        </label><br><br>
+
+        <label>Date of birth
+            <input type="date" id="dob">
+        </label><br><br>
+
+        <label>State 
+            <select id="state">
+                <option id="empty"></option>
+                <option id="abia">Abia</option>
+                <option id="kogi">Kogi</option>
+                <option id="katsina">Katsina</option>
+                <option id="kaduna">Kaduna</option>
+                <option id="ondo">Ondo</option>
+                <option id="enugu">Enugu</option>
+                <option id="ilorin">Ilorin</option>
+            </select>
+        </label><br><br>
+
+        <h3>Hobbies</h3>
+
+            <input type="checkbox" id="check1" name="hobbies1">
+            <label for="hobbies1">Programming</label>
+            
+            <input type="checkbox" id="check2" name="hobbies2">
+            <label for="hobbies2">Bowling</label>
+            
+            <input type="checkbox" id="check3" name="hobbies3">
+            <label for="hobbies3">Drawing</label>
+
+            <input type="checkbox" id="check4" name="hobbies4">
+            <label for="hobbies4">Travelling</label> 
+
+            <input type="checkbox" id="check5" name="hobbies5">
+            <label for="hobbies5">Driving</label> 
+            
+          <br><br>
+        
+        </form>
+        <button onclick="Greetings()">Submit</button>
+<script type="text/javascript" src="form.js"></script>
+</body>    
+</html>
